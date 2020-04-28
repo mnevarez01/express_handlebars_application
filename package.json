@@ -17,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/mnevarez01/express_handlebars_application/issues"
   },
-  "homepage": "https://github.com/mnevarez01/express_handlebars_application#readme"
+  "homepage": "https://github.com/mnevarez01/express_handlebars_application#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.3",
+    "mysql": "^2.18.1"
+  }
 }
