@@ -1,16 +1,16 @@
 INSERT INTO burgers
     (burger_name)
 VALUES
-    ("Bacon Burger")
+    ("Bacon Burger");
 INSERT INTO burgers
     (burger_name)
 VALUES
-    ("Avocado Burger")
+    ("Avocado Burger");
 INSERT INTO burgers
     (burger_name)
 VALUES
-    ("Vegan Burger")
+    ("Vegan Burger");
 INSERT INTO burgers
     (burger_name)
 VALUES
-    ("Blue Cheese Burger")
+    ("Blue Cheese Burger");
