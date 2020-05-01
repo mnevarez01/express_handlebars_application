@@ -7,7 +7,7 @@ router.get("/", (req, res) => {
 });
 
 router.get("/burgers", (req, res) => {
-    burgers.all(burgerData => {
+    burger.all(burgerData => {
         res.render("index", { burger_data: burgerData })
     });
 });
