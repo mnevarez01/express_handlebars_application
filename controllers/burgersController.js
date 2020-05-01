@@ -7,7 +7,14 @@ router.get("/", (req, res) => {
 });
 
 router.get("/burgers", (req, res) => {
-    burgers.all(burgerData){
+    burgers.all(burgerData => {
         res.render("index", { burger_data: burgerData })
-    }
+    });
+});
+
+router.post("/burgers/create", (req, res) => {
+    burger.create(req.body.burger_name, (result) => {
+        console.log(result);
+        res.redirect("/");
+    })
 })
